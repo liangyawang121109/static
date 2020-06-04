@@ -1,0 +1,54 @@
+.box {
+    background-color: #304156;
+}
+.LoginNav {
+    width: 500px;
+    height: 300px;
+    color: white;
+    border: 1px solid #283443;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-left: -250px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+}
+.LoginNav li {
+    list-style: none;
+}
+.LoginNav li input{
+    border: 1px solid transparent;
+    width: 413px;
+    height: 40px;
+    position: relative;
+    right: 20px;
+    border-radius: 10px;
+    background-color: #283443;
+
+}
+.logo-size {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid transparent;
+    margin-bottom: 45px;
+
+}
+.input-user {
+    margin-bottom: 26px;
+    padding-left: 40px;
+    background: url("../images/user.png");
+    background-repeat: no-repeat;
+    line-height: 40px;
+    float: left;
+}
+
+.input-passwd{
+    background: url("../images/passwd.png");
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    margin-bottom: 26px;
+}
+.LoginNav .input-submit {
+    width: 453px;
+    background-color: #3c6382;
+}
